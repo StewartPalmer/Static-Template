@@ -2,7 +2,7 @@
   <Layout>
     <div class="uk-section">
       <div class="uk-container uk-container-large">
-        <ArticleCard :articles="$page.strapi.articles" />
+        <!-- <ArticleCard :articles="$page.strapi.articles" /> -->
       </div>
     </div>
   </Layout>
@@ -28,7 +28,7 @@
 </page-query>
 
 <script>
-import Articles from "~/components/ArticleCard";
+import ArticleCard from "~/components/ArticleCard";
 
 export default {
   components: {
@@ -36,7 +36,7 @@ export default {
   },
   metaInfo() {
     return {
-       title: this.$page.strapi.homepage.seo.metatitle,
+       //title: this.$page.strapi.homepage.seo.metatitle,
     };
   },
 };
