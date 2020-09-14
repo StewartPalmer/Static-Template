@@ -1,0 +1,22 @@
+{
+  "name": "fontend",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@gridsome/plugin-sitemap": "^0.4.0",
+    "@gridsome/source-graphql": "^0.1.0",
+    "autoprefixer": "^9.8.6",
+    "gridsome": "^0.7.0",
+    "tailwindcss": "^1.8.8"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^3.0.1",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2"
+  }
+}
