@@ -1,7 +1,7 @@
 <template>
   <div class="flex container w-full mx-auto">
-    <div class="flex w-full items-center justify-evenly my-8">
-      <div class="flex w-2/12 flex-col items-center" v-for="(logo, index) in logos" :key="index">
+    <div class="flex mx-4 w-full items-center justify-evenly my-8 flex-col md:flex-row">
+      <div class="flex my-4 md:my-4 w-full md:w-2/12 flex-col items-center" v-for="(logo, index) in logos" :key="index">
         <div
           class="bg-red-700 text-white square w-full  relative rounded-tl-xlg rounded-br-xlg mx-4"
         >
