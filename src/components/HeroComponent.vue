@@ -1,7 +1,7 @@
 <template>
   <div class="w-full h-screen bg-green-100 relative flex items-center">
-    <img
-      :src="background.url"
+    <g-image 
+      :src="background.url" 
       class="absolute top-0 left-0 w-full h-full object-cover"
     />
     <div

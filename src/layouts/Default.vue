@@ -21,8 +21,4 @@ query {
 }
 </static-query>
 
-<style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</style>
+

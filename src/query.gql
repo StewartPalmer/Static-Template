@@ -1,0 +1,67 @@
+# Write your query or mutation here
+query {
+  strapi {
+    homePage {
+      id
+      components {
+        ... on strapiTypes_ComponentComponentsHeroImage {
+          __typename
+          preTitle
+          title
+          subTitle
+          background {
+            url
+          }
+          link
+        }
+        ... on strapiTypes_ComponentComponentsLogoGrid {
+          __typename
+          title
+          logos {
+            ... on strapiTypes_ComponentNestedLogo {
+              image {
+                url
+              }
+              title
+              url
+            }
+          }
+        }
+        ... on strapiTypes_ComponentComponentsFiftyFiftyComponent {
+          __typename        
+          image {
+              url
+          }
+          content
+          reverse
+        }
+
+        ... on strapiTypes_ComponentComponentsCallToAction {
+          __typename          
+          heading
+          subHeading
+           call_to_action {
+             url
+             title
+         }
+        }
+        
+        ... on strapiTypes_ComponentComponentsTestimonial {
+          __typename
+          content
+          attribution
+        }
+      
+      }
+      seo {
+        ... on strapiTypes_ComponentSharedSeo {
+          metatitle
+          metaDescription
+          shareImage {
+            url
+          }
+        }
+      }
+    }
+  }
+}

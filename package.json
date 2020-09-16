@@ -11,8 +11,10 @@
     "@gridsome/plugin-sitemap": "^0.4.0",
     "@gridsome/source-graphql": "^0.1.0",
     "autoprefixer": "^9.8.6",
+    "babel-runtime": "^6.26.0",
     "gridsome": "^0.7.0",
-    "tailwindcss": "^1.8.8"
+    "tailwindcss": "^1.8.8",
+    "vue-markdown": "^2.2.4"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^3.0.1",
