@@ -29,6 +29,7 @@ query {
         ... on strapiTypes_ComponentComponentsLogoGrid {
           __typename
           title
+          background_color
           logos {
             ... on strapiTypes_ComponentNestedLogo {
               image {
