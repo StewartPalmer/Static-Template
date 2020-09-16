@@ -9,22 +9,7 @@
 </template>
 
 <page-query>
-   query { 
-       strapi {
-      homePage {
-      id,
-        seo {
-      ... on strapiTypes_ComponentSharedSeo  {
-        metatitle,
-        metaDescription,
-        shareImage{
-          url
-        }
-      }
-      }
-      } 
-       }
-  }
+
 </page-query>
 
 <script>

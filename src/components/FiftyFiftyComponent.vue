@@ -8,6 +8,7 @@
             class="flex w-full h-full absolute flex-col items-center justify-center"
           >
             <img class="w-full h-full object-cover" :src="image.url" />          
+            <div class="absolute top-0 h-full w-1/3 bg-red-700 opacity-25" :class="{'right-0': reverse, 'left-0': !reverse }"></div>
           </div>
         </div>
           
