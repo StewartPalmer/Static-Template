@@ -2,7 +2,7 @@
 <div class="flex flex-col" :class="{'md:flex-row-reverse': reverse, 'md:flex-row': !reverse }">
      <div class="flex w-full md:w-1/2 items-center">
         <div
-          class="square w-full  relative"
+          class="square w-full h-full  relative"
         >
           <div
             class="flex w-full h-full absolute flex-col items-center justify-center"
