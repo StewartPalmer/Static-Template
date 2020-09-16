@@ -21,8 +21,9 @@ query {
           preTitle
           title
           subTitle
+          small
           background {
-            url
+            url 
           }
           link
         }
@@ -106,8 +107,5 @@ export default {
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
-}
 
 </style>
