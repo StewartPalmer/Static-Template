@@ -63,6 +63,7 @@ query {
           __typename
           content
           attribution
+          reverse
         }
       
       }
