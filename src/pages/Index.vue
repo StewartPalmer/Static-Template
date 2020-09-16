@@ -98,9 +98,9 @@ export default {
     TestiomnalComponent
   },
   metaInfo() {
-    console.log(this);
+   
     return {
-      title: this.$page.strapi.homePage.seo.metatitle,
+     // title: this.$page.strapi.homePage.seo.metatitle,
     };
   },
 };
