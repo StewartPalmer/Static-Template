@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'Online Personal Trainers',
   siteDescription: 'For all your online personal training needs',
+  siteUrl: 'http://hopeful-gates-338463.netlify.app',
   plugins: [
     {
       use: '@gridsome/source-graphql',
