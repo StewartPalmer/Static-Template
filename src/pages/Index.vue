@@ -25,7 +25,10 @@ query {
           background {
             url 
           }
-          link
+          call_to_action {
+             url
+             title
+         }
         }
         ... on strapiTypes_ComponentComponentsLogoGrid {
           __typename

@@ -15,7 +15,7 @@
       <h1 v-html="title" class="font-display text-2xl sm:text-4xl md:text-6xl uppercase font-light"></h1>
       <span class="font-display text-lg sm:text-xl md:text-2xl uppercase">{{ subTitle }}</span>
 <div class="mt-4">
-      <a  v-if="link" class="bg-red-700 inline-block w-auto rounded-tl-xlg rounded-br-xlg"><div class="mx-8 my-4 font-display uppercase">Find Out More</div></a>
+      <a  v-if="call_to_action" class="bg-red-700 inline-block w-auto rounded-tl-xlg rounded-br-xlg" :href="call_to_action.url"><div class="mx-8 my-4 font-display uppercase">{{call_to_action.title}}</div></a>
       </div>
     </div>
   </div>
@@ -28,7 +28,7 @@ export default {
     title: String,
     background: Object,
     subTitle: String,
-    link: String,
+    call_to_action: Object,
     small: Boolean
   },
 };

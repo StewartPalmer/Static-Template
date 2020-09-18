@@ -32,9 +32,16 @@ module.exports = {
       */
     },
     {
-      use: '@gridsome/plugin-sitemap',
+      use: '@gridsome/plugin-critical',
       options: {
-        exclude: ['/exclude-me'],
+        paths: ['/'],
+        width: 1300,
+        height: 900
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {        
         config: {
           '/articles/*': {
             changefreq: 'weekly',
